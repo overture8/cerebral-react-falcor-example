@@ -17,7 +17,7 @@ class App extends React.Component {
       <div>
         <button
           disabled={this.props.isLoading}
-          onClick={() => this.props.signals.button1Clicked({ data: 'button1' })}>
+          onClick={() => this.props.signals.button1Clicked()}>
           Button 1
         </button>
 
