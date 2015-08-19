@@ -1,9 +1,7 @@
 function getGreeting(input, state, output) {
   input.utils.falcor.
     get("greeting").
-    then((response) => {
-      output.success(response);
-    });
+    then(output.success);
 }
 
 export default getGreeting;
